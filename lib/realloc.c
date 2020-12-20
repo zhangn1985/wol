@@ -23,9 +23,8 @@
 #undef realloc
 
 #include <sys/types.h>
+#include <stdlib.h>
 
-char *malloc ();
-char *realloc ();
 
 /* Change the size of an allocated block of memory P to N bytes,
    with error checking.  If N is zero, change it to 1.  If P is NULL,
