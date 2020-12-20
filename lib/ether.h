@@ -37,11 +37,6 @@
 
 #if !HAVE_STRUCT_ETHER_ADDR_ETHER_ADDR_OCTET && !HAVE_STRUCT_ETHER_ADDR_OCTET
 
-struct
-ether_addr
-{
-	unsigned char ether_addr_octet[MAC_LEN];
-};
 
 #define ETHER_ADDR_OCTET ether_addr_octet
 
